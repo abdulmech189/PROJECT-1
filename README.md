@@ -1,6 +1,5 @@
 # PROJECT-1
-Registration and Login system using Python, file handling
-
+REGISTRATION AND LOGIN SYSTEM USING PYTHON, FILE HANDLING.
 
 PROBLEM: To create Registration and Login system using Python, file handling..
 Note:- This task has to be accomplished using Python alone. No web.
@@ -124,7 +123,7 @@ Once the username and password are validated, store that data in a text file.
 
 Solution:
 
-# Function created to add login details in DB:
+# Function created to add login details in text file:
     def LoginDetails_Add_in_DB(x,a,b,y):
         file = open('Login_DB.txt', 'r+')
         file.readlines()
